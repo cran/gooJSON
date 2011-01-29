@@ -1,0 +1,12 @@
+897c99149d11f6f842cb0ada2a86ffa6 *ChangeLog
+e5ef4f3f479c1ca00c9bc0106ddb6173 *DESCRIPTION
+c29b1cf77892326283b2681bc612250e *NAMESPACE
+333c6a024e1e90bd617752e1651a97c3 *R/goo2df.R
+917faade989752f0ea2d96b399e8b856 *R/gooadd.R
+4bf5c82b8e75046badfde41389561d56 *R/goomap.R
+1eb69d2de4b18e7327f7ce6a9e976fc2 *R/zzz.R
+73f4f2b4da21d5a32fab60d28923ee53 *inst/extdata/uci.json
+2e028d720beaf14a695c638f15c4d6b9 *man/goo2df.Rd
+7322dd6d7d07936e1e0d83c7f80afa9c *man/gooJSON-package.Rd
+862d6f9ae8dc064d912ef348dfc64450 *man/gooadd.Rd
+09b62a7b411aa5748d7170ab5cc66cf8 *man/goomap.Rd

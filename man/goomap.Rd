@@ -4,11 +4,11 @@
 \title{Google Maps API Geocode Query}
 \description{Returns a JSON formatted list from a geocode query to the Google Maps API}
 \usage{
-goomap(gooadd, key, options = c("oe=utf8", "sensor=false"))
+goomap(gooadd, key=NULL, options = c("oe=utf8", "sensor=false"))
 }
 \arguments{
   \item{gooadd}{A string containing a properly formed address. See details.}
-  \item{key}{A string containing the user's Google Maps API key. See details.}
+  \item{key}{Optionally, a string containing the user's Google Maps API key. See details.}
   \item{options}{A character vector containing optional parameters passed to the Google Maps API query. See details.}
 }
 \details{
@@ -29,9 +29,9 @@ Christopher Steven Marcum
 }
 \references{\url{http://code.google.com/apis/maps/index.html}}
 \examples{
-##Not Run
-#uci.add<-gooadd(address=list("3151 Social Science Plaza", "Irvine", "CA", "92697"))
-#goomap(uci.add,key="YOUR KEY HERE")
+## Not run
+\dontrun{uci.add<-gooadd(address=list("3151 Social Science Plaza", "Irvine", "CA", "92697"))}
+\dontrun{goomap(uci.add)}
 #Can use lat/lon coordinates directly
-#goomap(paste(33.64689,-117.83897,sep=","),key="YOUR KEY HERE")
+\dontrun{goomap(paste(33.64689,-117.83897,sep=","))}
 }
